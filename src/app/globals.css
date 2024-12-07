@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 640px) {
+    /* Small screen adjustments */
+    .max-w-screen-2xl {
+      max-width: 100%;
+    }
+    .table-fixed {
+      display: block;
+      width: 100%;
+    }
+  }
+  
